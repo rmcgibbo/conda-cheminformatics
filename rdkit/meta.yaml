@@ -7,7 +7,7 @@ source:
   url: https://github.com/rdkit/rdkit/archive/Release_2014_03_1.zip
 
 build:
-  number: 2 
+  number: 3 
 
 requirements:
   build:

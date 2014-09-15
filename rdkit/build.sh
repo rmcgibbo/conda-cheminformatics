@@ -1,15 +1,9 @@
 #!/bin/bash
 
-$PYTHON "$RECIPE_DIR/fetch_inchi.py"
-$PYTHON "$RECIPE_DIR/fetch_avalontools.py"
-
 cmake \
     -D RDK_INSTALL_INTREE=OFF \
     -D RDK_INSTALL_STATIC_LIBS=OFF \
-    -D RDK_BUILD_INCHI_SUPPORT=ON \
-    -D RDK_BUILD_AVALON_SUPPORT=ON \
     -D RDK_USE_FLEXBISON=OFF \
-    -D AVALONTOOLS_DIR=$SRC_DIR/External/AvalonTools/src/SourceDistribution \
     -D CMAKE_SYSTEM_PREFIX_PATH=$PREFIX \
     -D CMAKE_INSTALL_PREFIX=$PREFIX \
     -D Python_ADDITIONAL_VERSIONS=${PY_VER} \
