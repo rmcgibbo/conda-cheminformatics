@@ -14,10 +14,11 @@ Includes
 5. boto
 6. fabric
 7. pymonfo
-
+8. subprocess32
+...
 
 Created with
 
 ```
-conda metapackage rmcgibbo-cheminf 0.1 --dependencies boost rdkit pubchem-utils rdkit-utils openbabel pymongo boto fabric six
+conda metapackage rmcgibbo-cheminf 0.1 --dependencies `cat dependencies.txt | xargs`
 ```

@@ -1,0 +1,10 @@
+boost
+rdkit
+pubchem-utils
+rdkit-utils
+openbabel
+pymongo
+boto
+fabric
+six
+subprocess32
