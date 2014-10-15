@@ -13,7 +13,7 @@ Includes
 4. rdkit-utils
 5. boto
 6. fabric
-7. pymonfo
+7. pymongo
 
 
 Created with
