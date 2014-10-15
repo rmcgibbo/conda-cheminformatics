@@ -13,12 +13,12 @@ Includes
 4. rdkit-utils
 5. boto
 6. fabric
-7. pymonfo
+7. pymongo
 8. subprocess32
 ...
 
 Created with
 
 ```
-conda metapackage rmcgibbo-cheminf 0.1 --dependencies `cat dependencies.txt | xargs`
+conda metapackage rmcgibbo-cheminf 0.11 --dependencies `cat dependencies.txt | xargs`
 ```
