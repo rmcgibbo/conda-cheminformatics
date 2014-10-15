@@ -1,0 +1,20 @@
+package:
+  name: rdkit-utils
+  version: 0.1
+
+source:
+  git_url: git@github.com:skearnes/rdkit-utils.git
+
+requirements:
+  build:
+    - python
+    - setuptools
+
+  run:
+    - python
+    - numpy
+    - rdkit
+
+about:
+  home: https://github.com/skearnes/rdkit-utils
+  license: BSD

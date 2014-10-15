@@ -1,0 +1,19 @@
+package:
+  name: pubchem-utils
+  version: 0.1
+
+source:
+  git_url: git@github.com:skearnes/pubchem-utils.git
+
+requirements:
+  build:
+    - python
+    - setuptools
+
+  run:
+    - python
+    - numpy
+
+about:
+  home: https://github.com/skearnes/pubchem-utils
+  license: BSD
