@@ -20,5 +20,5 @@ Includes
 Created with
 
 ```
-conda metapackage rmcgibbo-cheminf 0.12 --dependencies `cat dependencies.txt | xargs`
+conda metapackage rmcgibbo-cheminf 0.13 --dependencies `cat dependencies.txt | xargs`
 ```
