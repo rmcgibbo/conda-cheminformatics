@@ -2,6 +2,7 @@ boost
 rdkit
 pubchem-utils
 rdkit-utils
+qchem-utils
 openbabel
 pymongo
 boto
