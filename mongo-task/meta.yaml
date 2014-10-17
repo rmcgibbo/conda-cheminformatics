@@ -1,0 +1,21 @@
+package:
+  name: mongo-task
+  version: 0.1
+
+source:
+  git_url: git@github.com:rmcgibbo/mongo-task.git
+
+requirements:
+  build:
+    - python
+    - setuptools
+
+  run:
+    - python
+    - boto
+    - pyyaml
+    - pymongo
+
+about:
+  home: https://github.com/rmcgibbo/mongo-task
+  license: MIT
