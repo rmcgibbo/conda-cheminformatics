@@ -10,3 +10,4 @@ fabric
 six
 subprocess32
 mongo-task
+numpy

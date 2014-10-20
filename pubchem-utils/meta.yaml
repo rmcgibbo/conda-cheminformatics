@@ -2,6 +2,9 @@ package:
   name: pubchem-utils
   version: 0.2
 
+build:
+  number: 1
+
 source:
   git_url: git@github.com:skearnes/pubchem-utils.git
 
@@ -12,7 +15,6 @@ requirements:
 
   run:
     - python
-    - numpy
 
 about:
   home: https://github.com/skearnes/pubchem-utils
