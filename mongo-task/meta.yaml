@@ -1,6 +1,6 @@
 package:
   name: mongo-task
-  version: 0.2
+  version: "0.2.1"
 
 source:
   git_url: git@github.com:rmcgibbo/mongo-task.git
